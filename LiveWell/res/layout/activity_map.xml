@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MapActivity" >
+ 
+ <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+ 
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mapsettings_title"
+        android:textSize="@dimen/heading1"
+        android:textColor="@color/heading1"
+        android:paddingBottom="@dimen/seperator" />
+    
+    <TextView
+    	    android:id="@+id/TextView_Title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/mapn_title"
+	        android:textSize="@dimen/heading1"
+	        android:textColor="@color/heading1"
+	        android:paddingBottom="@dimen/seperator" />
+    	
+    	<EditText
+    	    android:id="@+id/EditText_loc"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content" />
+    	
+    	<Button
+    	    android:id ="@+id/Button_click"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/mapn_title" />
+    	</LinearLayout>
+
+</ScrollView>
